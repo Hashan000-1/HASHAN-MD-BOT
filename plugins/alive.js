@@ -10,7 +10,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
     
-await conn.sendMessage(from,{image: {url: `https://i.ibb.co/jyVLMdD/infinitywabot.jpg`},caption: `*Hello ${pushname}, HASHAN MD IS ALIVE NOW !*
+await conn.sendMessage(from,{image: {url: `https://imgur.com/a/eviedH4`},caption: `*Hello ${pushname}, HASHAN MD IS ALIVE NOW !*
 
 *OWNER : HASHIYA TECH*
 *VERSION : 1.0*
