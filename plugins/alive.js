@@ -1,49 +1,19 @@
-const { cmd } = require('../command');
-const os = require("os");
-const { runtime } = require('../lib/functions');
-const config = require('../config');
+const config = require('../config')
+const {cmd , commands} = require('../command')
 
 cmd({
     pattern: "alive",
-    alias: ["status", "online", "a"],
-    desc: "Check bot is alive or not",
+    desc: "Check bot online or no.",
     category: "main",
-    react: "📍",
     filename: __filename
 },
-async (conn, mek, m, { from, sender, reply }) => {
-    try {
-        const status = `
-╭───〔 *🤖 HASHAN-MD STATUS* 〕───◉
-│✨ *HASHAN-MD ALIVE NOW*
-│
-│🧠 *Owner:* Hashiya
-│⚡ *Version:* 1.0.0
-│📝 *Prefix:* [${config.PREFIX}]
-│📳 *Mode:* public
-│💾 *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-│🖥️ *Host:* ${os.hostname()}
-│⌛ *Uptime:* ${runtime(process.uptime())}
-╰────────────────────◉
-> HASHAN-MD WHATSAPP BOT`;
-
-        await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL },
-            caption: status,
-            contextInfo: {
-                mentionedJid: [m.sender],
-                forwardingScore: 1000,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363395674230271@newsletter',
-                    newsletterName: 'HASHAN-MD',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-
-    } catch (e) {
-        console.error("Alive Error:", e);
-        reply(`An error occurred: ${e.message}`);
-    }
-});
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    
+await conn.sendMessage(from,{image: {url: `https://i.ibb.co/jyVLMdD/infinitywabot.jpg`},caption: `Hello ${pushname}, HASHAN MD IS ALIVE NOW !`},{quoted: mek})
+    
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
