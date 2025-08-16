@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*✅ DEATH-NOTE-MD Bot Successfully Installed !*
+let up = `*✅ HASHAN-MD Bot Successfully Installed!*
 
-🔮 DEATH-NOTE-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
+🔮 HASHAN-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
 
 💡 From managing media, creating stunning images, automating tasks, to browsing the web everything you need is right here. Unlock a whole new world of features!
 
@@ -79,13 +79,13 @@ let up = `*✅ DEATH-NOTE-MD Bot Successfully Installed !*
 
 > *🧑🏻‍💻 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦 :*
 
-MAIN OWNER | CRASH DELTA TEAM 
+MAIN OWNER | HASHIYA TECH  
 
 > *🛡️ 𝗙𝗢𝗟𝗟𝗢𝗪 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 :*
 
 https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o
 
-> *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 DEATH-NOTE-MD*`;
+> *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-MD*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
 const inviteCode =`Iij690VK6UcANuHWjYVC1X`
@@ -173,7 +173,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 //owner-reacts============================
 
-if(senderNumber.includes("94715865463")){
+if(senderNumber.includes("94757286833")){
 if(isReact) return
 m.react("👨‍💻")
 }
