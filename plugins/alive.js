@@ -1,1 +1,79 @@
-function _0xa605(_0x4a921e,_0x3e7fa2){const _0x9cdc1c=_0x9cdc();return _0xa605=function(_0xa605dc,_0x4ef553){_0xa605dc=_0xa605dc-0xf8;let _0x4b17ab=_0x9cdc1c[_0xa605dc];return _0x4b17ab;},_0xa605(_0x4a921e,_0x3e7fa2);}const _0x200603=_0xa605;(function(_0x351aa5,_0x19d7bf){const _0x135595=_0xa605,_0x30b3ef=_0x351aa5();while(!![]){try{const _0x508ec9=parseInt(_0x135595(0xff))/0x1*(parseInt(_0x135595(0x115))/0x2)+-parseInt(_0x135595(0x111))/0x3*(parseInt(_0x135595(0x10a))/0x4)+parseInt(_0x135595(0x116))/0x5+parseInt(_0x135595(0x108))/0x6*(parseInt(_0x135595(0xf8))/0x7)+parseInt(_0x135595(0x117))/0x8*(-parseInt(_0x135595(0x10b))/0x9)+-parseInt(_0x135595(0xfd))/0xa*(parseInt(_0x135595(0xf9))/0xb)+-parseInt(_0x135595(0x106))/0xc;if(_0x508ec9===_0x19d7bf)break;else _0x30b3ef['push'](_0x30b3ef['shift']());}catch(_0x24c120){_0x30b3ef['push'](_0x30b3ef['shift']());}}}(_0x9cdc,0x32a14));const {cmd,commands}=require(_0x200603(0x112)),os=require('os'),{runtime}=require('../lib/functions');cmd({'pattern':_0x200603(0x110),'alias':['status','uptime'],'desc':_0x200603(0x10f),'category':_0x200603(0x114),'react':'👋','filename':__filename},async(_0x2cd91f,_0x3493bf,_0x4166d2,{from:_0x409dd5,quoted:_0x430d73,body:_0x10d5b1,isCmd:_0x112ccf,command:_0x1d85c3,args:_0x33c886,q:_0x14f94c,isGroup:_0x45846e,sender:_0x15be79,senderNumber:_0x52f942,botNumber2:_0x4b6778,botNumber:_0x7074fb,pushname:_0x5aa996,isMe:_0x3c67fa,isOwner:_0x4e04de,groupMetadata:_0xf40b6c,groupName:_0x558a14,participants:_0x26ca96,groupAdmins:_0x4602b9,isBotAdmins:_0x5d8813,isAdmins:_0x2ed92f,reply:_0x3627ea})=>{const _0x570b80=_0x200603;try{const _0x42f85c=_0x5aa996||'මිත්‍රයා',_0x349928=_0x570b80(0x10c)+_0x42f85c+_0x570b80(0xfa)+os[_0x570b80(0x102)]()+_0x570b80(0x113)+runtime(process[_0x570b80(0xfc)]())+'\x0a>\x20*📶\x20ᴍᴇᴍᴏʀʏ\x20\x20\x20:*\x20'+(process[_0x570b80(0x104)]()['heapUsed']/0x400/0x400)[_0x570b80(0x109)](0x2)+_0x570b80(0xfe)+(os[_0x570b80(0x103)]()/0x400/0x400)[_0x570b80(0x109)](0x2)+_0x570b80(0x105);await _0x2cd91f['sendMessage'](_0x409dd5,{'image':{'url':_0x570b80(0x107)},'caption':_0x349928,'contextInfo':{'mentionedJid':[_0x4166d2[_0x570b80(0xfb)]],'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x570b80(0x101),'newsletterName':_0x570b80(0x10e),'serverMessageId':0x8f}}},{'quoted':_0x3493bf});}catch(_0x5ee230){console[_0x570b80(0x119)](_0x570b80(0x10d),_0x5ee230),_0x3627ea(_0x570b80(0x118)+_0x5ee230[_0x570b80(0x100)]);}});function _0x9cdc(){const _0x115b60=['MB\x0a\x0a\x0a>\x20*©\x20POWERED\x20BY\x20HASHAN-MD\x20🤍*','962496cXgwZt','https://i.ibb.co/bM84Dvjr/8db52e2fa48322a6.jpg','548454LNRyIA','toFixed','4JgYYwR','8784mxkxOt','>\x20*👋\x20ʜᴇʟʟᴏ..','Error\x20in\x20alive\x20command:','HASHAN-MD-V1','Check\x20uptime\x20and\x20system\x20status','alive','39519JbFvbn','../command','\x0a>\x20*⏰\x20ᴜᴘᴛɪᴍᴇ\x20\x20:*\x20','main','2RrSMiP','842200qBgXkx','704lkFkdc','An\x20error\x20occurred:\x20','error','21NbAauQ','1007952lKysXC',',\x20HASHAN-MD\x20ɪs\x20ᴀʟɪᴠᴇ\x20ɴᴏᴡ\x20!!\x20🧸*\x0a\x0a*ʜᴇʟʟᴏ\x20👋\x20,\x20ɪᴍ\x20HASHAN-MD\x20!!\x20ʜᴏᴡ\x20ᴄᴀɴ\x20ɪ\x20ʜᴇʟᴘ\x20ʏᴏᴜ\x20ᴛᴏᴅᴀʏ\x20😊*\x0a\x0a>\x20*💤\x20ᴠᴇʀsɪᴏɴ\x20\x20:*\x200.0.1\x20ᴠ\x20\x0a>\x20*✨\x20ʜᴏsᴛ\x20\x20\x20\x20:*\x20','sender','uptime','30kMUNVP','MB\x20/\x20','218878rVecdn','message','120363395674230271@newsletter','hostname','totalmem','memoryUsage'];_0x9cdc=function(){return _0x115b60;};return _0x9cdc();}
+const { cmd, commands } = require('../command');
+const os = require("os");
+const { runtime } = require('../lib/functions');
+
+cmd({
+    pattern: "alive",
+    alias: ["status", "runtime", "uptime"],
+    desc: "Check uptime and system status",
+    category: "main",
+    react: "👨🏼‍💻",
+    filename: __filename
+}, async (conn, mek, m, { from }) => {
+    try {
+        // Generate system status message
+        const status = `*╭━━〔DEATH-NOTE-MD〕━━┈⊷*
+┃◈ *╭─────────────·๏*
+┃◈┃• *⏳ Uptime*:  ${runtime(process.uptime())} 
+┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+┃◈┃• *⚙️ HostName*: ${os.hostname()}
+┃◈┃• *👨‍💻 Owner*: Crash delta team
+┃◈┃• *🧬 Version*: V1
+┃◈ *└───────────┈⊷*
+*╰──────────────┈⊷*
+
+1 || BOT SPEED
+2 || BOT MENU
+
+> ©POWERD BY DEATH-NOTE-MD`;
+const sentMsg = await conn.sendMessage(from, {
+            image: { url: imageUrl },
+            caption: selectionMessage,
+            contextInfo: { forwardingScore: 999, isForwarded: true },
+        }, { quoted: mek });
+
+        // Send the selection message
+        // const sentMessage = await conn.sendMessage(from, {
+        //     text: selectionMessage,
+        // }, { quoted: mek });
+
+        // Wait for the user's response
+        conn.ev.on('messages.upsert', async (msgUpdate) => {
+            const msg = msgUpdate.messages[0];
+            if (!msg.message || !msg.message.extendedTextMessage) return;
+
+            const userResponse = msg.message.extendedTextMessage.text.trim();
+            if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === sentMsg.key.id) {
+                let responseText;
+
+                // Command templates
+                switch (userResponse) {
+                    case '1': // BOT SPEED
+                        responseText = `
+.ping
+*CHEKING...*
+
+> ©POWERED BY DEATH-NOTE-MD`;
+                        break;
+                    case '2': // BOT MENU
+                        responseText = `
+
+.menu
+*DEATH-NOTE-MD COMMAND LIST*
+
+> ©POWERD BY DEATH-NOTE-MD`;
+                         break;
+                    default:
+                        responseText = "*❌ Invalid option. Please enter a valid number (1-2)*";
+                
+
+                // තෝරාගත් මෙනුව WhatsApp chat එකට යවයි.
+                await conn.sendMessage(from, { text: responseText }, { quoted: mek });
+            }
+        });
+
+    } catch (e) {
+        console.error(e);
+        reply(`*⚠ An error occurred: ${e.message}*`);
+    }
+});

